@@ -98,12 +98,12 @@ function purchaseAgain() {
         message: "Would you like to make another purchase?",
         default: true
     }]).then(choice => {
-    	if (choice.promptAgain) {
-    		displayTable();
-    		
-    	} else {
-    		console.log("\nGood Bye!\n");
-    		connection.end();
-    	}
+        if (choice.promptAgain) {
+            displayTable();
+
+        } else {
+            console.log("\nGood Bye!\n");
+            connection.end();
+        }
     });
 }
