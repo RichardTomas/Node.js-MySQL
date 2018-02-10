@@ -13,3 +13,6 @@ The activity involves creating an Amazon type storefront with Node.js and MySQL.
 * inquirer 
 
 * cli-table
+
+Link to Video
+https://youtu.be/xgP7LztqhlQ
